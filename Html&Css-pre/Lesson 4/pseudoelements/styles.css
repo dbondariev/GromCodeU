@@ -1,0 +1,19 @@
+ p[class="theory"]::first-letter {
+     font-size: 36px;
+     margin-left: 16px;
+     color: orange;
+ }
+
+ p[class="theory"]::first-line {
+     font-size: 24px;
+ }
+
+ a::after {
+     content: "<";
+     color: green;
+ }
+
+ a::before {
+     content: ">";
+     color: green;
+ }

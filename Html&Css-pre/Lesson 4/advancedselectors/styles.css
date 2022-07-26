@@ -1,0 +1,20 @@
+input[checked] {
+    margin-left: 50px;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+#special::first-letter {
+    color: green;
+    font-size: 100px;
+}
+
+h1:hover {
+    color: blue;
+}
+
+a:visited {
+    color: gray;
+}

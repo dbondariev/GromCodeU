@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Images</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form>
+        <div class="over">
+            <label for="last-name-form-control">Last Name</label>
+            <input type="text" id="last-name-form-control" name="lastName" value="Emerson" readonly>
+        </div>
+        <div class="over">
+            <label for="agenum">Age</label>
+            <input type="number" id="agenum" name="age" min="3" max="10" value="17">
+        </div>
+        <div class="over">
+            <label>
+                <input type="checkbox" name="agree" disabled label="Accept terms and conditions.">
+                Accept terms and conditions
+            </label>
+        </div>
+        <div class="choose-gender">
+            <input type="radio" name="gender"> <label for="">Male</label>
+            <input type="radio" name="gender" checked> <label for="">Female</label>
+            <input type="radio" name="gender"> <label for="">Secret</label>
+        </div>
+        <div class="over">
+            <textarea maxlength="10" name="description" maxlength="10" placeholder="Write description..."></textarea>
+        </div>
+        <div class="over">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

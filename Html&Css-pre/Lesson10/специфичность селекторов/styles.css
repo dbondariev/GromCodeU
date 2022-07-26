@@ -1,0 +1,29 @@
+        .rectangle {
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;
+        }
+
+        .text {
+            font-size: 18px;
+            line-height: 24px;
+        }
+
+        .text::first-letter {
+            color: red;
+        }
+
+        .new {
+            color: grey;
+        }
+
+        .rectangle {
+            background-color: blueviolet !important;
+            width: 100px;
+            height: 100px;
+   }
+
+        .text::first-letter {
+            color: green !important;
+            font-size: 24px;
+   }

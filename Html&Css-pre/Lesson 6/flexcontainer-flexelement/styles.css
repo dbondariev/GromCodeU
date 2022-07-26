@@ -1,0 +1,15 @@
+.horizontal {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.vertical {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

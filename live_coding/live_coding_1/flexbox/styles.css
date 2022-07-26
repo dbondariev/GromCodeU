@@ -1,0 +1,48 @@
+.navigation {
+  display: flex;
+  background-color: #ff7f50;
+  min-height: 200px;
+}
+
+.products-list {
+  display: flex;
+  background-color: #006400;
+  min-height: 200px;
+}
+
+.news {
+  display: flex;
+  background-color: #0ff;
+  min-height: 200px;
+}
+
+span {
+  background-color: #faebd7;
+  padding: 8px;
+  border-radius: 4px;
+  text-transform: lowercase;
+  margin: auto;
+}
+
+@media  (min-width: 600px) {
+  .products {
+    display: flex;
+  }
+  .navigation,
+  .products-list
+   {
+    flex: 1;
+  }
+}
+
+@media  (min-width: 900px) {
+  .container {
+    display: flex;
+  }
+  .products {
+    flex: 2;
+  }
+  .news {
+    flex: 1;
+  }
+}

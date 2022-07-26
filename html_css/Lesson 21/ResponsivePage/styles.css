@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Verdana;
+    color: #555;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(60deg, red, orange);
+}
+
+.footer {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    background-color: #e5e5e5;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navigation {
+    width: 20%;
+    padding: 0.5em;
+}
+
+.section {
+    width: 60%;
+    padding: 0.5em;
+    font-size: 1.25em;
+}
+
+:where(nav) ul {
+    padding: 0;
+    list-style: none;
+}
+
+:where(nav) li {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.units-list {
+    line-height: 1.75em;
+}
+
+.css-units {
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.section__header {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.news {
+    width: 20%;
+    padding: 0.5em;
+}
+
+.nav-list-item {
+    margin-bottom: 0.5em;
+    line-height: 2em;
+    padding: 0 0.5em;
+    color: white;
+    background-color: #808080;
+}
+
+.nav-list-link {
+    color: white;
+}
+

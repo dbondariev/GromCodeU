@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <h1>Responsive website</h1>
+    </header>
+    <main class="main">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a class="nav-list-link" href="#">Responsive images</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="#">Mediaqueries</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="#">Flexbox</a></li>
+            </ul>
+        </nav>
+        <section class="section">
+            <h2 class="section__header">True story</h2>
+            <picture class="picture">
+                <source srcset="
+              https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/hw2/big.png
+            " media="(min-width: 600px)" />
+                <source srcset="
+              https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/hw2/small.png
+            " />
+                <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/hw2/big.png"
+                    alt="Seaside" />
+            </picture>
+            <p>There are few ways to define <code>font-size</code>:</p>
+            <ul class="units-list">
+                <li class="units-list-item">
+                    <span class="css-units">px</span> are good if you need strict definition for a size of
+                    text. In other cases it is better to use relative units listed below.
+                </li>
+                <li class="units-list-item">
+                    <span class="css-units">em</span> based on current font size
+                </li>
+                <li class="units-list-item">
+                    <span class="css-units">rem</span> based on <code>&lt;html&gt;</code> font-size
+                </li>
+                <li class="units-list-item">
+                    <span class="css-units">%</span> based on parent font size
+                </li>
+                <li class="units-list-item">
+                    <span class="css-units">vh</span> (viewport height) based on screen height
+                </li>
+                <li class="units-list-item">
+                    <span class="css-units">vw</span> (viewport width) based on screen width
+                </li>
+            </ul>
+        </section>
+        <aside class="news">
+            <h2>Not a news</h2>
+            <p>A web page should look good on any device!</p>
+        </aside>
+    </main>
+    <footer class="footer">Welcome to the responsive world!</footer>
+</body>
+
+</html>

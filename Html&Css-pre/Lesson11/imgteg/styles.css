@@ -1,0 +1,57 @@
+.image-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.poleDerevo {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
+.gallery {
+    display: flex;
+}
+
+.imgOpacity {
+    filter: opacity(50%);
+    height: 225px;
+    width: 225px;
+}
+
+.imgBlur {
+    filter: blur(4px);
+    height: 225px;
+    width: 225px;
+}
+
+.imgInvert {
+    height: 225px;
+    width: 225px;
+    filter: invert(100%);
+}
+
+.card {
+    margin: 16px;
+    box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+
+.opacity {
+    line-height: 30px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.blur {
+    line-height: 30px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.invert {
+    line-height: 30px;
+    text-align: center;
+    text-transform: lowercase;
+}

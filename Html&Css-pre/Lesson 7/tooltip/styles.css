@@ -1,0 +1,24 @@
+.container {
+    position: relative;
+}
+
+.text {
+    margin: 16px;
+    border-bottom: 1px dotted #000;
+    display: inline-block;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: grey;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    left: 16px;
+    top: 40px;
+    display: none;
+}
+
+.container:hover .tooltip {
+    display: block;
+}

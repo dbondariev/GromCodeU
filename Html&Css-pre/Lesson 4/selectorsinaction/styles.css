@@ -1,0 +1,80 @@
+ body {
+     background-color: #bdc3c7;
+ }
+
+ h1 {
+     color: #9b59b6;
+ }
+
+ h2 {
+     color: orange;
+ }
+
+ li {
+     color: blue;
+ }
+
+ p {
+     background-color: yellow;
+ }
+
+ input {
+     border: 3px solid red;
+ }
+
+ .hello {
+     /* color: black; */
+     background-color: white;
+ }
+
+ #special {
+     /* color: black;
+     background-color: yellow; */
+     border: 2px solid blue;
+ }
+
+ div p {
+     font-size: 25px;
+ }
+
+ input[type="text"] {
+     background-color: gray;
+ }
+
+ div[class="third"] p {
+     background-color: yellow;
+ }
+
+ p[class="second"] {
+     /* color: black; */
+     border: 5px solid white;
+ }
+
+ /* em[class="div3"] {
+     color: white;
+     font-size: 20px;
+ }
+
+ p[class="sheker"] {
+     color: black;
+     background-color: yellow;
+ }
+
+ p[class="Tom"] {
+     background-color: yellow;
+     color: black;
+ }
+
+ p[class="not"] {
+     color: black;
+     background-color: yellow;
+ } */
+
+ #word{
+     color: white;
+     font-size: 20px;
+ }
+
+ #secondp{
+     border: 5px solid white;
+ }

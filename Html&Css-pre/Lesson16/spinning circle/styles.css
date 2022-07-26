@@ -1,0 +1,80 @@
+        @keyframes moving {
+            from {
+                left: 0;
+                opacity: 1;
+            }
+
+            to {
+                left: 70px;
+            }
+        }
+
+        @keyframes blinking {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+
+        .container {
+            position: fixed;
+            top: 60%;
+            left: 50%;
+        }
+
+        .spinner {
+            width: 50vw;
+            height: 50vh;
+        }
+
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .spinner-text {
+            font-family: monospace;
+            font-size: 16px;
+            animation: blinking 2s steps(5, start) infinite;
+        }
+
+
+        .circle {
+            box-sizing: border-box;
+            width: 50px;
+            height: 50px;
+            margin-bottom: 8px;
+            border: solid 4px lightgray;
+            border-top: solid 4px black;
+            position: fixed;
+            top: 50%;
+            left: 51%;
+            border-radius: 50%;
+            border-right-color: transparent;
+            border-bottom-color: transparent;
+            transition: all 0.5s ease-in;
+            animation-name: rotate;
+            animation-duration: 2.0s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+            transition: all 0.5s ease-in;
+            animation-name: rotate;
+            animation-duration: 2.0s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }

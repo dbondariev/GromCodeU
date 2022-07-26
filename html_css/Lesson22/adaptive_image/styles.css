@@ -1,0 +1,8 @@
+img {
+  max-width: 100%;
+  margin: auto;
+}
+
+picture {
+  display: flex;
+}

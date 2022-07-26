@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 32px;
+}
+
+.rect {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    transition-property: width;
+    transition-duration: 2s;
+    margin-bottom: 16px;
+}
+
+.rect:hover {
+    width: 100%;
+    opacity: 1;
+}
+
+[class="rect linear"]:hover {
+    transition-timing-function: linear;
+}
+
+[class="rect ease"]:hover {
+    transition-timing-function: ease;
+}
+
+[class="rect ease-in"]:hover {
+    transition-timing-function: ease-in;
+}
+
+[class="rect ease-out"]:hover {
+    transition-timing-function: ease-out;
+}
+
+[class="rect ease-in-out"] {
+    transition-timing-function: ease-in-out;
+}

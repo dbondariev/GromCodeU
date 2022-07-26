@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+}
+
+div {
+    height: 100px;
+    width: 150px;
+    margin: 16px;
+    background-color: beige;
+}
+
+.visible-text {
+    visibility: visible;
+}
+
+.cropped {
+    overflow: hidden;
+}
+
+.both-scrolls {
+    overflow: scroll;
+}
+
+.vertical-scroll {
+    overflow: auto;
+}

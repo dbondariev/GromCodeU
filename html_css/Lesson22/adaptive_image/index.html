@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Adaptive Image</title>
+</head>
+
+<body>
+    <main>
+        <picture>
+            <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg"
+                media="(min-width: 400px)">
+            <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg">
+            <img class='img'
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg"
+                alt="Tree on land">
+        </picture>
+    </main>
+</body>
+
+</html>

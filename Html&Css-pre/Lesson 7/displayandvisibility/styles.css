@@ -1,0 +1,17 @@
+div>div {
+    width: 100px;
+    height: 100px;
+    background: coral;
+}
+
+div[class="none"] {
+    display: none;
+}
+
+div[class="hiddnen"] {
+    visibility: hidden;
+}
+
+div[class="visible"] {
+    visibility: visible;
+}

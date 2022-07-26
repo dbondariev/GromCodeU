@@ -1,0 +1,35 @@
+  * {
+      box-sizing: border-box;
+  }
+
+  .square {
+      width: 100px;
+      height: 100px;
+      background-color: #8a2be2;
+      margin: 8px;
+  }
+
+  body {
+      display: flex;
+
+  }
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+  @media screen and (max-width: 600px) {
+      .square {
+          background-color: #ff7f50;
+      }
+
+  }
+
+  @media screen and (orientation:portrait) {
+      .container {
+          flex-direction: column;
+      }
+  }

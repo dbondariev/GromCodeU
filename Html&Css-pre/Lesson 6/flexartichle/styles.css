@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    background-color: bisque;
+    margin: 8px;
+    padding: 16px;
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}

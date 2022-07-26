@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+section {
+    margin: 32px;
+}
+
+h1 {
+    text-transform: uppercase;
+    word-spacing: 20px;
+    text-align: center;
+}
+
+p {
+    line-height: 28px;
+}
+
+.HTML {
+    letter-spacing: 3px;
+    font-size: 24px;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.em {
+    color: gray;
+}
+
+.url {
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+form{
+    margin: 32px;
+}
+
+div{
+    margin: 8px;
+}

@@ -1,0 +1,11 @@
+.icon {
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task2/sprites.png);
+    background-position: -200px 0;
+}
+
+.icon:hover {
+    background-position-y: -100px;
+}

@@ -1,0 +1,11 @@
+.block {
+    height: 100px;
+    flex-basis: 100px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}

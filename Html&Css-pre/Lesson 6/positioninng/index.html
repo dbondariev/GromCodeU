@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+</head>
+<style>
+    ul[class],
+    ol[class] {
+        list-style: none;
+    }
+
+    .header {
+        position: fixed;
+        background-color: darkturquoise;
+        height: 40px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .navigation {
+        position: absolute;
+        top: -16px;
+    }
+
+    .nav-list {
+        display: flex;
+    }
+
+    .nav-item {
+
+        height: 40px;
+        line-height: 2.5em;
+        color: white;
+        margin-left: 16px;
+    }
+
+    .content {
+        background-color: beige;
+        height: 5000px;
+    }
+
+    .head {
+        left: calc((100% - 200px) / 2);
+        top: calc((100% - 200px) / 2);
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        background-color: aquamarine;
+    }
+
+    .ear {
+        height: 60px;
+        width: 40px;
+        background-color: brown;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .eye {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: grey;
+        margin-top: 80px;
+    }
+
+    .ear_right {
+        float: right;
+        left: 40px;
+    }
+
+    .ear_left {
+        float: left;
+        right: 40px;
+    }
+
+    .eye_right {
+        float: right;
+    }
+
+    .eye_left {
+        float: left;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Products</li>
+                <li class="nav-item">Contacts</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <div class="head">
+            <div class="ear ear_right"></div>
+            <div class="ear ear_left"></div>
+            <div class="eye eye_right"></div>
+            <div class="eye eye_left"></div>
+        </div>
+    </main>
+</body>
+
+</html>

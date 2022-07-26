@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Float</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+        }
+
+        section {
+            background: aquamarine;
+            padding: 16px;
+        }
+
+        footer {
+            height: 30px;
+            border: 2px solid black;
+            clear: both;
+        }
+
+
+
+        .container {
+            float: left;
+            width: 50%;
+        }
+
+        [class="red square"] {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            float: right;
+        }
+
+        [class="green square"] {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <h2>Big text</h2>
+
+        <div class="green square"></div>
+        <div class="red square"></div>
+        <p>
+            The float CSS property places an element on the left or right side of its container,
+            allowing text and inline elements to wrap around it. The element is removed from the normal
+            flow of the page, though still remaining a part of the flow (in contrast to absolute
+            positioning). As mentioned above, when an element is floated, it is taken out of the normal
+            flow of the document (though still remaining part of it). It is shifted to the left, or
+            right, until it touches the edge of its containing box, or another floated element. In this
+            example, there are three colored squares. Two are floated left, and one is floated right.
+            Note that the second "left" square is placed to the right of the first. Additional squares
+            would continue to stack to the right, until they filled the containing box, after which they
+            would wrap to the next line.
+        </p>
+        <footer class="footer"></footer>
+    </section>
+    <section class="container">
+        <h2>Small text</h2>
+        <div class="red square"></div>
+        <div class="green square"></div>
+
+        <p>Small text</p>
+        <footer class="footer"></footer>
+    </section>
+</body>
+
+</html>

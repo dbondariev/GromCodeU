@@ -1,0 +1,61 @@
+@import 'breakpoints.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+
+    @media (orientation: landscape) {
+        flex-direction: row;
+    }
+
+    @media (orientation: portrait) {
+        flex-direction: column;
+    }
+}
+
+.container {
+    @include for-medium {
+        display: flex;
+        flex-direction: row;
+    }
+
+    @include for-medium-up {
+        display: flex;
+        flex-direction: row;
+    }
+
+    @include for-large {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #ff7f50;
+    margin: 8px;
+
+    @include for-medium {
+        background-color: #8a2be2;
+    }
+
+    @include for-medium-up {
+        background-color: #a61;
+    }
+
+    @include for-large {
+        background-color: #c47;
+    }
+}

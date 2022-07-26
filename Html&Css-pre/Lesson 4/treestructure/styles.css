@@ -1,0 +1,29 @@
+li {
+    margin-bottom: 16px;
+}
+
+.first {
+    background-color: red;
+    color: white;
+}
+
+.last {
+    background-color: black;
+    color: white;
+}
+
+.two {
+    margin-left: 16px;
+}
+
+.four {
+    margin-left: 16px;
+}
+
+.last {
+    margin-left: 16px;
+}
+
+div[class="paragraphs"]>p[class="nechet"] {
+    background-color: gray;
+}

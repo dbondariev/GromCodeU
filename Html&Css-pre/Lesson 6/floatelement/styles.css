@@ -1,0 +1,64 @@
+div {
+    padding: 16px;
+}
+
+.child,
+.parent {
+    border: 2px solid black;
+}
+
+.child {
+    position: absolute;
+    top: 90px;
+    right: 40px;
+}
+
+.parent {
+    width: 300px;
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+.child {
+    background: yellow;
+    position: absolute;
+}
+
+.tip {
+    opacity: 1;
+    background-color: whitesmoke;
+    padding: 0 8px;
+}
+
+.green {
+    width: 100px;
+    height: 100px;
+    background: green;
+    float: left;
+}
+
+.container {
+    height: 2000px;
+}
+
+[class="parent static-parent"] {
+    position: static;
+}
+
+[class="parent relative-parent"] {
+    position: relative;
+    bottom: -20px;
+    left: 50px;
+}
+
+[class="parent absolute-parent"] {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+
+[class="parent fixed-parent"] {
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+}
