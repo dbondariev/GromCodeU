@@ -101,20 +101,3 @@ const numbersList2 = [6, 20, 33, 43, 8];
 
 // numbersList2.sort((a, b) => b - a);
 // console.log(numbersList2);//[43,33,20,6,8]
-
-
-function run() {
-    var a = 0;
-
-    if (a == 1) {
-        return c;
-    }
-
-    for (let i = 1; i < 10; i++) {
-        console.log(i);
-    }
-
-    return (d = a);
-}
-
-run();

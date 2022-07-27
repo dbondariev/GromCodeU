@@ -1,1 +1,1 @@
-console.log('Hello, world!');
+const cloneArray = arr => arr.slice();
