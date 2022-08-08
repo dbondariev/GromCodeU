@@ -55,6 +55,20 @@ const createTask = () => {
  inputElem.value = '';
 };
 
+// const onToggleTask = e => {
+//  const isCheckbox = e.target.classList.contains('list__item-checkbox');
+
+//  if (!isCheckbox) {
+//   return;
+//  }
+
+//  const taskData = tasks.find(task => task.id === e.target.dataset.id);
+//  Object.assign(taskData, { done: e.target.checked });
+//  renderTasks(tasks);
+// };
+
+// listElem.addEventListener('click', onToggleTask);
+
 const markAsDone = event => {
  const targetElem = tasks.find(el => el.id === event.target.dataset.id);
  targetElem.done = !targetElem.done;
