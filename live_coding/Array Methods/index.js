@@ -1,37 +1,36 @@
-//Advanced Array Metods:
+// Advanced Array Metods:
 
-//1. .map()//map() is a method that allows you to iterate over an array and perform an operation on each element.
+// 1. .map()//map() is a method that allows you to iterate over an array and perform an operation on each element.
 const numbersList = [5, 0, 8, 10, -4, 50, 220];
 
-//map()
-//input: callback function.
-//output: new array.
+// map()
+// input: callback function.
+// output: new array.
 
-//callback function:
-//input: current value, index, array.
-//output: new value.
+// callback function:
+// input: current value, index, array.
+// output: new value.
 
-//option 1:
+// option 1:
 // const mapRes =numbersList.map(el=>{
 //     const newEl = el * 2;
 //     return newEl;
 // });
 // console.log(mapRes);//[5,0,8,10,-4,50,220]
 
-//option 2:
+// option 2:
 // const mapRes =numbersList.map(el=>el * 2);
 // console.log(mapRes);//[5,0,8,10,-4,50,220]
 
+// 2. .forEach()//forEach() is a method that allows you to iterate over an array and perform an operation on each element.
 
-//2. .forEach()//forEach() is a method that allows you to iterate over an array and perform an operation on each element.
+// .forEach()
+// input: callback function.
+// output: undefined.
 
-//.forEach()
-//input: callback function.
-//output: undefined.
-
-//callback function:
-//input: current value, index, array.
-//output: undefined.
+// callback function:
+// input: current value, index, array.
+// output: undefined.
 
 /* метод forEach */
 /* arr.forEach(callback) - итерирует массив и выполняет callback функцию по очереди для каждого элемента
@@ -45,13 +44,10 @@ const numbersList = [5, 0, 8, 10, -4, 50, 220];
 //     }
 // });
 
+// 3. .reduce()//reduce() is a method that allows you to iterate over an array and perform an operation on each element.
 
-//3. .reduce()//reduce() is a method that allows you to iterate over an array and perform an operation on each element.
-
-//input: callback function.
-//output: new value.
-
-
+// input: callback function.
+// output: new value.
 
 /* метод reduce */
 /* const newArr = arr.reduce(callback) - применяет функцию callback к каждому элементу массива (слева-направо), 
@@ -62,7 +58,7 @@ const numbersList = [5, 0, 8, 10, -4, 50, 220];
 
 const transactions = [5, 0, 8, 10, -4, 50, 220, 1203, 556, 41];
 
-//option 1:
+// option 1:
 // transactions.reduce((sum, el) => {
 //     console.log('sum: ', sum);
 //     console.log('element: ', el);
@@ -75,16 +71,13 @@ const transactions = [5, 0, 8, 10, -4, 50, 220, 1203, 556, 41];
 
 //     console.log(transactions);
 
-//option 2:
+// option 2:
 //  const reduceSum = transactions.reduce((sum, el) => (el > 100 ? sum + el : sum), 0);
 //     console.log(reduceSum);
-
-
-
 /* sort - отсортирует массив в заданом порядке */
 
-//input: callback function.
-//output: new array.
+// input: callback function.
+// output: new array.
 
 // c помощью метода sort отсортируй массив numbersList1 по убыванию, результат помести в переменную sortedArr1
 // выведи в консоль sortedArr1, а так же массив numbersList1 после выполнения sort
