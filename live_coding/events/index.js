@@ -79,3 +79,4 @@ createBtn.addEventListener('click', createTask);
 listElem.addEventListener('click', markAsDone);
 
 renderTasks(tasks);
+// Events:
