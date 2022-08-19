@@ -36,7 +36,7 @@ export function updateUser(userId, userData) {
 
 const formElem = document.querySelector('.login-form');
 
-const serverUrl = 'https://6272c6bfa6522e24ac3e537b.mockapi.io/v1/users';
+const serverUrl = 'https://62d55c2c15ad24cbf2c55d15.mockapi.io/api/v1/users';
 
 function createUserHandler(event) {
  event.preventDefault();
